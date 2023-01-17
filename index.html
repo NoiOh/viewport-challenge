@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[YOUR NAME]</title>
+    <meta
+      name="description"
+      content="making all pages responsive on all devices"
+    />
+    <title>Front-end Developer - Noi Houangvan</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,12 +20,12 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">[YOUR NAME]</a>
+        <a class="navbar-brand" href="index.html">Noi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,18 +55,29 @@
       </div>
     </nav>
     <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center">[YOUR NAME]</h1>
-    <h3 class="text-center">Front-end developer, based in [YOUR LOCATION]</h3>
+    <h1 class="text-center">Noi Houangvan</h1>
+    <h3 class="text-center">Front-end developer, based in the United States</h3>
     <div class="navigation-links mb-5">
-      <a href="about.html#contact" class="primary-link">Contact me</a>
-      <a href="about.html" class="secondary-link">About me</a>
+      <a
+        href="about.html#contact"
+        class="primary-link"
+        title="Contact Noi Houangvan"
+        >Contact</a
+      >
+      <a href="about.html" class="secondary-link" title="About Noi Houangvan"
+        >About</a
+      >
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <img src="images/yoga.png" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="images/yoga.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="yoga project picture"
+          />
         </div>
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -76,7 +91,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Weather app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -88,15 +103,23 @@
             <a href="#" class="primary-link">Launch Weather App</a>
           </div>
         </div>
-        <div class="col-6">
-          <img src="images/weather.png" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="weather project picture"
+          />
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6">
-          <img src="images/yogurt.png" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="images/yogurt.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="yogurt project picture"
+          />
         </div>
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Yogurt app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -104,8 +127,8 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Weather App</a>
+          <div class="mt-5 mb-5">
+            <a href="#" class="primary-link">Launch Yogurt App</a>
           </div>
         </div>
       </div>
